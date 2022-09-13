@@ -1,6 +1,6 @@
 import s from './ReportsPage.module.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import Balance from 'components/Balance/Balance';
 import MonthTotal from 'components/MonthTotal/MonthTotal';
