@@ -1,3 +1,7 @@
+.container {
+/* margin-top: 150px; */
+}
+
 .wrapper_nav {
   display: flex;
   justify-content: center;
@@ -36,11 +40,3 @@
   background-color: #ffffff;
 }
 
-/* .summ__link{
-  composes: link;
-} */
-@media screen and (max-width: 768px) {
-  .summ__link {
-    display: none;
-  }
-}

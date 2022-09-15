@@ -81,7 +81,7 @@ export const ExpensesAndIncome = ({ date, setDate }) => {
 
   return (
     <div>
-      <ButtonTransactions />
+      {width > 768 && <ButtonTransactions />}
       <div className={s.container}>
         <Calendar date={date} setDate={setDate} />
         {width < 768 && (
