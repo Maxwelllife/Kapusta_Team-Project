@@ -40,5 +40,3 @@ export const newDiagramHeight = (diagramForSelectedMonth, canvasTag) => {
 //   return item === transaction.description ? acc + transaction.amount : acc;
 // }, 0),
 // }));
-
-// console.log(diagramForAllTime(chosenCategoriesUniqueLabels));
